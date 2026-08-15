@@ -1,0 +1,18 @@
+# environments / deps
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# models / data (weights live on Hugging Face)
+mvp/models/
+data/
+publish/
+
+# notebook checkpoints
+.ipynb_checkpoints/
